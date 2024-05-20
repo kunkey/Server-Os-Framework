@@ -1,0 +1,3574 @@
+{
+  error: /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/middwares/app/Auth.js:21
+          const user = await AppUserModel.findByID(payload.id);
+                       ^^^^^
+  
+  SyntaxError: await is only valid in async functions and the top level bodies of modules
+      at internalCompileFunction (node:internal/vm:76:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+      at Module._compile (node:internal/modules/cjs/loader:1328:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/http/app/index.js:2:20)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: await is only valid in async functions and the top level bodies of modules\n' +
+    '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/middwares/app/Auth.js:21\n' +
+    '        const user = await AppUserModel.findByID(payload.id);\n' +
+    '                     ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at internalCompileFunction (node:internal/vm:76:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1283:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1328:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/http/app/index.js:2:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/middwares/app/Auth.js:21\n' +
+    '        const user = await AppUserModel.findByID(payload.id);\n' +
+    '                     ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at internalCompileFunction (node:internal/vm:76:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1283:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1328:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/http/app/index.js:2:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:27:13 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 18226,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 81924096,
+      heapTotal: 35901440,
+      heapUsed: 24167584,
+      external: 1896439,
+      arrayBuffers: 641835
+    }
+  },
+  os: { loadavg: [ 0.62, 0.78, 0.67 ], uptime: 1012.77 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 76,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1283,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1328,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/http/app/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:27:13.623Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)
+      at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:46:43 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21341,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86409216,
+      heapTotal: 37998592,
+      heapUsed: 21503680,
+      external: 2000899,
+      arrayBuffers: 191219
+    }
+  },
+  os: { loadavg: [ 0.51, 0.74, 0.81 ], uptime: 2182.33 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:46:43.183Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)
+      at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:46:45 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21365,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86736896,
+      heapTotal: 38260736,
+      heapUsed: 21643512,
+      external: 2017028,
+      arrayBuffers: 207348
+    }
+  },
+  os: { loadavg: [ 0.51, 0.74, 0.81 ], uptime: 2184.82 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:46:45.669Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)
+      at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:46:46 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21381,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86925312,
+      heapTotal: 38785024,
+      heapUsed: 22837024,
+      external: 1449925,
+      arrayBuffers: 195321
+    }
+  },
+  os: { loadavg: [ 0.51, 0.74, 0.81 ], uptime: 2186.02 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:46:46.867Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)
+      at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:47:01 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21407,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86401024,
+      heapTotal: 38522880,
+      heapUsed: 21931992,
+      external: 1443512,
+      arrayBuffers: 188908
+    }
+  },
+  os: { loadavg: [ 0.86, 0.81, 0.83 ], uptime: 2200.43 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:47:01.278Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)
+      at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:469:13)\n' +
+    '    at Function.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js:224:7)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:47:07 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21430,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86192128,
+      heapTotal: 38260736,
+      heapUsed: 21469216,
+      external: 1982699,
+      arrayBuffers: 185806
+    }
+  },
+  os: { loadavg: [ 0.95, 0.83, 0.84 ], uptime: 2206.52 },
+  trace: [
+    {
+      column: 13,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:47:07.368Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:47:56 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21492,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86900736,
+      heapTotal: 38260736,
+      heapUsed: 21501152,
+      external: 1982699,
+      arrayBuffers: 185806
+    }
+  },
+  os: { loadavg: [ 1.05, 0.86, 0.85 ], uptime: 2255.71 },
+  trace: [
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:47:56.556Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:47:58 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21524,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87060480,
+      heapTotal: 39047168,
+      heapUsed: 22758768,
+      external: 1455961,
+      arrayBuffers: 201357
+    }
+  },
+  os: { loadavg: [ 1.12, 0.88, 0.85 ], uptime: 2257.45 },
+  trace: [
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:47:58.304Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:48:07 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21546,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87052288,
+      heapTotal: 39571456,
+      heapUsed: 22626336,
+      external: 1443512,
+      arrayBuffers: 188908
+    }
+  },
+  os: { loadavg: [ 1.11, 0.88, 0.85 ], uptime: 2266.21 },
+  trace: [
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:48:07.059Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:48:14 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21590,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87306240,
+      heapTotal: 38522880,
+      heapUsed: 22150048,
+      external: 1443512,
+      arrayBuffers: 188908
+    }
+  },
+  os: { loadavg: [ 1.16, 0.9, 0.86 ], uptime: 2273.18 },
+  trace: [
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:48:14.028Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:49:25 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21745,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86528000,
+      heapTotal: 38260736,
+      heapUsed: 21598616,
+      external: 1996049,
+      arrayBuffers: 199156
+    }
+  },
+  os: { loadavg: [ 0.99, 0.88, 0.85 ], uptime: 2344.75 },
+  trace: [
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:49:25.606Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:1:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:49:31 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21789,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87326720,
+      heapTotal: 39309312,
+      heapUsed: 22595120,
+      external: 1434711,
+      arrayBuffers: 180107
+    }
+  },
+  os: { loadavg: [ 0.91, 0.87, 0.85 ], uptime: 2350.43 },
+  trace: [
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:49:31.279Z'
+}
+{
+  error: ReferenceError: app is not defined
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:13:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: app is not defined\n' +
+    'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:13:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:13:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:49:43 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 21841,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87638016,
+      heapTotal: 39309312,
+      heapUsed: 22557584,
+      external: 1443512,
+      arrayBuffers: 188908
+    }
+  },
+  os: { loadavg: [ 1.01, 0.89, 0.86 ], uptime: 2362.63 },
+  trace: [
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: null,
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:49:43.485Z'
+}
+{
+  error: TypeError: websocket.ws is not a function
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:52:11)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: 'uncaughtException: websocket.ws is not a function\n' +
+    'TypeError: websocket.ws is not a function\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:52:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: 'TypeError: websocket.ws is not a function\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:52:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:57:39 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 22748,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86106112,
+      heapTotal: 38522880,
+      heapUsed: 23137568,
+      external: 1522785,
+      arrayBuffers: 268181
+    }
+  },
+  os: { loadavg: [ 0.6, 0.7, 0.76 ], uptime: 2838.93 },
+  trace: [
+    {
+      column: 11,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 52,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:57:39.785Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'apply')
+      at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15
+      at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)
+      at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)
+      at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:49:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'apply')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:49:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:49:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:59:16 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 22905,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 85151744,
+      heapTotal: 36163584,
+      heapUsed: 25632744,
+      external: 1906008,
+      arrayBuffers: 651404
+    }
+  },
+  os: { loadavg: [ 0.43, 0.63, 0.73 ], uptime: 2935.81 },
+  trace: [
+    {
+      column: 15,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 646,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'next',
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 49,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:59:16.663Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'apply')
+      at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15
+      at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)
+      at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)
+      at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:49:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'apply')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:49:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:49:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:59:31 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 22982,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 88240128,
+      heapTotal: 37736448,
+      heapUsed: 26312944,
+      external: 1804280,
+      arrayBuffers: 549676
+    }
+  },
+  os: { loadavg: [ 0.47, 0.63, 0.73 ], uptime: 2950.88 },
+  trace: [
+    {
+      column: 15,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 646,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'next',
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 49,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:59:31.728Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'apply')
+      at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15
+      at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)
+      at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)
+      at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'apply')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:59:35 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23002,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86560768,
+      heapTotal: 38785024,
+      heapUsed: 22652064,
+      external: 1441733,
+      arrayBuffers: 187129
+    }
+  },
+  os: { loadavg: [ 0.59, 0.65, 0.73 ], uptime: 2954.87 },
+  trace: [
+    {
+      column: 15,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 646,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'next',
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:59:35.726Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'apply')
+      at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15
+      at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)
+      at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)
+      at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'apply')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'apply')\n" +
+    '    at /home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:646:15\n' +
+    '    at next (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:216:14)\n' +
+    '    at Function.handle (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Sun Apr 28 2024 03:59:40 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23022,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86601728,
+      heapTotal: 38785024,
+      heapUsed: 22691696,
+      external: 1434711,
+      arrayBuffers: 180107
+    }
+  },
+  os: { loadavg: [ 0.7, 0.68, 0.74 ], uptime: 2959.66 },
+  trace: [
+    {
+      column: 15,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 646,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'next',
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/express/lib/router/index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T20:59:40.513Z'
+}
+{
+  error: TypeError: app.ws is not a function
+      at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:16:9)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: app.ws is not a function\n' +
+    'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:16:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:16:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:00:35 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23105,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87912448,
+      heapTotal: 38785024,
+      heapUsed: 22761472,
+      external: 1449925,
+      arrayBuffers: 195321
+    }
+  },
+  os: { loadavg: [ 1.05, 0.81, 0.79 ], uptime: 3014.95 },
+  trace: [
+    {
+      column: 9,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: 'module.exports',
+      line: 16,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:00:35.797Z'
+}
+{
+  error: TypeError: app.ws is not a function
+      at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: app.ws is not a function\n' +
+    'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:00:54 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23166,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86331392,
+      heapTotal: 38522880,
+      heapUsed: 21545264,
+      external: 1991500,
+      arrayBuffers: 194607
+    }
+  },
+  os: { loadavg: [ 0.95, 0.81, 0.79 ], uptime: 3034.02 },
+  trace: [
+    {
+      column: 9,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:00:54.870Z'
+}
+{
+  error: TypeError: app.ws is not a function
+      at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: app.ws is not a function\n' +
+    'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:00:57 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23186,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86196224,
+      heapTotal: 38260736,
+      heapUsed: 21477984,
+      external: 1996049,
+      arrayBuffers: 199156
+    }
+  },
+  os: { loadavg: [ 0.95, 0.81, 0.79 ], uptime: 3036.47 },
+  trace: [
+    {
+      column: 9,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:00:57.324Z'
+}
+{
+  error: TypeError: app.ws is not a function
+      at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: app.ws is not a function\n' +
+    'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'TypeError: app.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:9)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:01:00 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23200,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86470656,
+      heapTotal: 38260736,
+      heapUsed: 21456880,
+      external: 1942571,
+      arrayBuffers: 167930
+    }
+  },
+  os: { loadavg: [ 0.87, 0.79, 0.78 ], uptime: 3040.06 },
+  trace: [
+    {
+      column: 9,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:01:00.911Z'
+}
+{
+  error: TypeError: redT.ws is not a function
+      at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:10)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: redT.ws is not a function\n' +
+    'TypeError: redT.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:10)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'TypeError: redT.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:10)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:02:59 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23410,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 87076864,
+      heapTotal: 38260736,
+      heapUsed: 21610744,
+      external: 2017028,
+      arrayBuffers: 207348
+    }
+  },
+  os: { loadavg: [ 0.49, 0.7, 0.75 ], uptime: 3159.08 },
+  trace: [
+    {
+      column: 10,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:02:59.926Z'
+}
+{
+  error: TypeError: redT.ws is not a function
+      at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:10)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: redT.ws is not a function\n' +
+    'TypeError: redT.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:10)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'TypeError: redT.ws is not a function\n' +
+    '    at module.exports (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:2:10)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:03:05 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23430,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 84877312,
+      heapTotal: 36163584,
+      heapUsed: 26106664,
+      external: 1942571,
+      arrayBuffers: 687967
+    }
+  },
+  os: { loadavg: [ 0.45, 0.69, 0.74 ], uptime: 3164.43 },
+  trace: [
+    {
+      column: 10,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:03:05.287Z'
+}
+{
+  error: /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:4
+          ws.send("ok")l
+                       ^
+  
+  SyntaxError: Unexpected identifier
+      at internalCompileFunction (node:internal/vm:76:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+      at Module._compile (node:internal/modules/cjs/loader:1328:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:1)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: 'uncaughtException: Unexpected identifier\n' +
+    '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:4\n' +
+    '        ws.send("ok")l\n' +
+    '                     ^\n' +
+    '\n' +
+    'SyntaxError: Unexpected identifier\n' +
+    '    at internalCompileFunction (node:internal/vm:76:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1283:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1328:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/routers/socket.js:4\n' +
+    '        ws.send("ok")l\n' +
+    '                     ^\n' +
+    '\n' +
+    'SyntaxError: Unexpected identifier\n' +
+    '    at internalCompileFunction (node:internal/vm:76:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1283:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1328:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:46:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sun Apr 28 2024 04:03:47 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 23514,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 86695936,
+      heapTotal: 38785024,
+      heapUsed: 22184680,
+      external: 1440235,
+      arrayBuffers: 185631
+    }
+  },
+  os: { loadavg: [ 0.56, 0.7, 0.74 ], uptime: 3206.76 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 76,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1283,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1328,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-27T21:03:47.607Z'
+}

@@ -1,0 +1,1566 @@
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:38:53 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 13896,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121319424,
+      heapTotal: 72339456,
+      heapUsed: 48263152,
+      external: 1965755,
+      arrayBuffers: 703116
+    }
+  },
+  os: { loadavg: [ 0.24, 0.56, 0.48 ], uptime: 1095.65 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:38:53.757Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:39:58 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 13986,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121180160,
+      heapTotal: 72339456,
+      heapUsed: 48369656,
+      external: 1965755,
+      arrayBuffers: 703116
+    }
+  },
+  os: { loadavg: [ 0.34, 0.54, 0.48 ], uptime: 1160.69 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:39:58.795Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:39:59 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 14020,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121298944,
+      heapTotal: 73388032,
+      heapUsed: 46724224,
+      external: 1736711,
+      arrayBuffers: 474072
+    }
+  },
+  os: { loadavg: [ 0.55, 0.59, 0.5 ], uptime: 1161.63 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:39:59.737Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:40:45 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 14080,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121085952,
+      heapTotal: 72863744,
+      heapUsed: 48381968,
+      external: 1957563,
+      arrayBuffers: 694924
+    }
+  },
+  os: { loadavg: [ 0.89, 0.69, 0.53 ], uptime: 1207.28 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:40:45.387Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:40:47 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 14118,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 122023936,
+      heapTotal: 72601600,
+      heapUsed: 48402968,
+      external: 1972044,
+      arrayBuffers: 709405
+    }
+  },
+  os: { loadavg: [ 0.89, 0.69, 0.53 ], uptime: 1209.65 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:40:47.750Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:41:02 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 14215,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121360384,
+      heapTotal: 72601600,
+      heapUsed: 48239616,
+      external: 1957563,
+      arrayBuffers: 694924
+    }
+  },
+  os: { loadavg: [ 0.93, 0.7, 0.54 ], uptime: 1224.52 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:41:02.627Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:41:05 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 14800,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 120692736,
+      heapTotal: 72601600,
+      heapUsed: 48221064,
+      external: 1965755,
+      arrayBuffers: 703116
+    }
+  },
+  os: { loadavg: [ 0.86, 0.69, 0.54 ], uptime: 1227.51 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:41:05.613Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:56:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:41:08 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 15219,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121184256,
+      heapTotal: 72601600,
+      heapUsed: 48393952,
+      external: 1957563,
+      arrayBuffers: 694924
+    }
+  },
+  os: { loadavg: [ 0.86, 0.69, 0.54 ], uptime: 1230.39 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 56,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:41:08.496Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:41:31 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17006,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121978880,
+      heapTotal: 72339456,
+      heapUsed: 48263712,
+      external: 1957563,
+      arrayBuffers: 694924
+    }
+  },
+  os: { loadavg: [ 0.68, 0.67, 0.54 ], uptime: 1253.77 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:41:31.873Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:09 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17065,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121352192,
+      heapTotal: 72601600,
+      heapUsed: 48412320,
+      external: 1973947,
+      arrayBuffers: 711308
+    }
+  },
+  os: { loadavg: [ 0.51, 0.61, 0.52 ], uptime: 1291.87 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:09.977Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:11 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17095,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 120385536,
+      heapTotal: 72601600,
+      heapUsed: 48402512,
+      external: 1973947,
+      arrayBuffers: 711308
+    }
+  },
+  os: { loadavg: [ 0.51, 0.61, 0.52 ], uptime: 1293.09 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:11.195Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:38 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17158,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121868288,
+      heapTotal: 72339456,
+      heapUsed: 48366600,
+      external: 1973947,
+      arrayBuffers: 711308
+    }
+  },
+  os: { loadavg: [ 0.34, 0.56, 0.51 ], uptime: 1320.82 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:38.924Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:40 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17179,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 122646528,
+      heapTotal: 72601600,
+      heapUsed: 48240768,
+      external: 1965755,
+      arrayBuffers: 703116
+    }
+  },
+  os: { loadavg: [ 0.47, 0.59, 0.52 ], uptime: 1322.46 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:40.560Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:43 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17197,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121815040,
+      heapTotal: 73388032,
+      heapUsed: 46798192,
+      external: 1744903,
+      arrayBuffers: 482264
+    }
+  },
+  os: { loadavg: [ 0.47, 0.59, 0.52 ], uptime: 1325.14 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:43.240Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:51 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17232,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 122019840,
+      heapTotal: 72601600,
+      heapUsed: 48132104,
+      external: 1965755,
+      arrayBuffers: 703116
+    }
+  },
+  os: { loadavg: [ 0.4, 0.57, 0.51 ], uptime: 1333.84 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:51.947Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:53 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17253,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 121544704,
+      heapTotal: 72339456,
+      heapUsed: 48250136,
+      external: 1965755,
+      arrayBuffers: 703116
+    }
+  },
+  os: { loadavg: [ 0.4, 0.57, 0.51 ], uptime: 1335.31 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:53.413Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:55 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17272,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 122359808,
+      heapTotal: 72601600,
+      heapUsed: 48505352,
+      external: 1957563,
+      arrayBuffers: 694924
+    }
+  },
+  os: { loadavg: [ 0.44, 0.58, 0.51 ], uptime: 1337.31 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:55.412Z'
+}
+{
+  error: ReferenceError: allowedOrigins is not defined
+      at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)
+      at Object.onceWrapper (node:events:631:28)
+      at Server.emit (node:events:529:35)
+      at emitListeningNT (node:net:1851:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: allowedOrigins is not defined\n' +
+    'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: allowedOrigins is not defined\n' +
+    '    at Server.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js:60:51)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at Server.emit (node:events:529:35)\n' +
+    '    at emitListeningNT (node:net:1851:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Mon May 20 2024 04:42:59 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 17299,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/server.js'
+    ],
+    memoryUsage: {
+      rss: 122437632,
+      heapTotal: 72601600,
+      heapUsed: 48376464,
+      external: 1957563,
+      arrayBuffers: 694924
+    }
+  },
+  os: { loadavg: [ 0.44, 0.58, 0.51 ], uptime: 1341.02 },
+  trace: [
+    {
+      column: 51,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      function: null,
+      line: 60,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 631,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 529,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1851,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-05-19T21:42:59.123Z'
+}

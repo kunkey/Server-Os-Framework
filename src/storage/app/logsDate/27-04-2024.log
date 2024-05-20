@@ -1,0 +1,1342 @@
+{
+  error: Error: Cannot find module '@Config/env'
+  Require stack:
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+      at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)
+      at Module._load (node:internal/modules/cjs/loader:981:27)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    "Error: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)',
+  stack: "Error: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)',
+  exception: true,
+  date: 'Sat Apr 27 2024 00:45:43 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 55509,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 83570688,
+      heapTotal: 35639296,
+      heapUsed: 24942984,
+      external: 1641674,
+      arrayBuffers: 397358
+    }
+  },
+  os: { loadavg: [ 0.72, 1.01, 0.94 ], uptime: 23934.57 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1140,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js',
+      function: 'Module._resolveFilename',
+      line: 49,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 981,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T17:45:43.296Z'
+}
+{
+  error: Error: Cannot find module '@Config/env'
+  Require stack:
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+      at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)
+      at Module._load (node:internal/modules/cjs/loader:981:27)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    "Error: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)',
+  stack: "Error: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)',
+  exception: true,
+  date: 'Sat Apr 27 2024 00:47:34 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 55949,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 84918272,
+      heapTotal: 35639296,
+      heapUsed: 24793784,
+      external: 1641674,
+      arrayBuffers: 397358
+    }
+  },
+  os: { loadavg: [ 0.79, 0.95, 0.92 ], uptime: 24045.83 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1140,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js',
+      function: 'Module._resolveFilename',
+      line: 49,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 981,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T17:47:34.553Z'
+}
+{
+  error: Error: Cannot find module '@Config/env'
+  Require stack:
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js
+  - /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+      at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)
+      at Module._load (node:internal/modules/cjs/loader:981:27)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    "Error: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)',
+  stack: "Error: Cannot find module '@Config/env'\n" +
+    'Require stack:\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/index.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/express.js\n' +
+    '- /home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._resolveFilename (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js:49:29)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js:4:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)',
+  exception: true,
+  date: 'Sat Apr 27 2024 00:47:34 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 55949,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 84549632,
+      heapTotal: 35901440,
+      heapUsed: 25271512,
+      external: 1665348,
+      arrayBuffers: 420992
+    }
+  },
+  os: { loadavg: [ 0.79, 0.95, 0.92 ], uptime: 24045.83 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1140,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/module-alias/index.js',
+      function: 'Module._resolveFilename',
+      line: 49,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 981,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/databases/redis.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T17:47:34.556Z'
+}
+{
+  error: TypeError: publish is not a function
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js:17:5)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: 'uncaughtException: publish is not a function\n' +
+    'TypeError: publish is not a function\n' +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js:17:5)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: 'TypeError: publish is not a function\n' +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js:17:5)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 01:10:30 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 59409,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 99221504,
+      heapTotal: 61329408,
+      heapUsed: 29958400,
+      external: 1690728,
+      arrayBuffers: 416242
+    }
+  },
+  os: { loadavg: [ 1.24, 0.93, 0.88 ], uptime: 25421.87 },
+  trace: [
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js',
+      function: 'Timeout._onTimeout',
+      line: 17,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T18:10:30.598Z'
+}
+{
+  error: ReferenceError: publish is not defined
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js:13:5)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: 'uncaughtException: publish is not defined\n' +
+    'ReferenceError: publish is not defined\n' +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js:13:5)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: 'ReferenceError: publish is not defined\n' +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js:13:5)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 02:40:53 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 69571,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 125128704,
+      heapTotal: 75747328,
+      heapUsed: 46123392,
+      external: 1935624,
+      arrayBuffers: 661138
+    }
+  },
+  os: { loadavg: [ 0.83, 0.65, 0.75 ], uptime: 30845.11 },
+  trace: [
+    {
+      column: 5,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T19:40:53.831Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 02:59:02 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 71920,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 121409536,
+      heapTotal: 72339456,
+      heapUsed: 49013488,
+      external: 2215205,
+      arrayBuffers: 940719
+    }
+  },
+  os: { loadavg: [ 0.78, 0.7, 0.79 ], uptime: 31933.3 },
+  trace: [
+    {
+      column: 18,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T19:59:02.023Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 02:59:12 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 71965,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 125366272,
+      heapTotal: 75223040,
+      heapUsed: 45691864,
+      external: 1850568,
+      arrayBuffers: 576082
+    }
+  },
+  os: { loadavg: [ 0.66, 0.68, 0.78 ], uptime: 31943.59 },
+  trace: [
+    {
+      column: 18,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T19:59:12.313Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 02:59:29 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 72020,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 125054976,
+      heapTotal: 75485184,
+      heapUsed: 45613488,
+      external: 1952342,
+      arrayBuffers: 677856
+    }
+  },
+  os: { loadavg: [ 0.83, 0.71, 0.79 ], uptime: 31960.62 },
+  trace: [
+    {
+      column: 18,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T19:59:29.343Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:00:14 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 72088,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 122408960,
+      heapTotal: 72339456,
+      heapUsed: 49084712,
+      external: 2234516,
+      arrayBuffers: 960030
+    }
+  },
+  os: { loadavg: [ 1.61, 0.89, 0.85 ], uptime: 32005.55 },
+  trace: [
+    {
+      column: 18,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:00:14.275Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:00:27 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 72157,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 125853696,
+      heapTotal: 75747328,
+      heapUsed: 45741640,
+      external: 1887684,
+      arrayBuffers: 613198
+    }
+  },
+  os: { loadavg: [ 1.25, 0.84, 0.83 ], uptime: 32019.05 },
+  trace: [
+    {
+      column: 18,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:00:27.772Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:13:18)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:00:34 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 72184,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 122015744,
+      heapTotal: 72601600,
+      heapUsed: 49148664,
+      external: 2213064,
+      arrayBuffers: 938578
+    }
+  },
+  os: { loadavg: [ 1.29, 0.87, 0.84 ], uptime: 32025.84 },
+  trace: [
+    {
+      column: 18,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 13,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:00:34.567Z'
+}
+{
+  error: ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context
+      at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)
+      at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14) {
+    command: 'PUBLISH',
+    args: [ 'channels', '{"status":"ok"}' ],
+    code: 'ERR'
+  },
+  level: 'error',
+  message: "uncaughtException: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  stack: "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:12:31 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 73995,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 100016128,
+      heapTotal: 61067264,
+      heapUsed: 29798632,
+      external: 1663765,
+      arrayBuffers: 389279
+    }
+  },
+  os: { loadavg: [ 0.57, 0.69, 0.79 ], uptime: 32743.03 },
+  trace: [
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseError',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseType',
+      line: 302,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:12:31.756Z'
+}
+{
+  error: ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context
+      at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)
+      at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14) {
+    command: 'PUBLISH',
+    args: [ 'channels', '{"status":"ok"}' ],
+    code: 'ERR'
+  },
+  level: 'error',
+  message: "uncaughtException: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  stack: "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:13:38 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 74089,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 99262464,
+      heapTotal: 61329408,
+      heapUsed: 29431888,
+      external: 1703332,
+      arrayBuffers: 428846
+    }
+  },
+  os: { loadavg: [ 0.69, 0.69, 0.79 ], uptime: 32809.35 },
+  trace: [
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseError',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseType',
+      line: 302,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:13:38.070Z'
+}
+{
+  error: ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context
+      at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)
+      at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14) {
+    command: 'PUBLISH',
+    args: [ 'channels', '{"status":"ok"}' ],
+    code: 'ERR'
+  },
+  level: 'error',
+  message: "uncaughtException: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  stack: "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:14:05 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 74135,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 99045376,
+      heapTotal: 61329408,
+      heapUsed: 29496832,
+      external: 1707687,
+      arrayBuffers: 433201
+    }
+  },
+  os: { loadavg: [ 0.48, 0.64, 0.77 ], uptime: 32836.58 },
+  trace: [
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseError',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseType',
+      line: 302,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:14:05.307Z'
+}
+{
+  error: ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context
+      at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)
+      at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14) {
+    command: 'PUBLISH',
+    args: [ 'channels', '{"status":"ok"}' ],
+    code: 'ERR'
+  },
+  level: 'error',
+  message: "uncaughtException: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  stack: "ReplyError: ERR Can't execute 'publish': only (P)SUBSCRIBE / (P)UNSUBSCRIBE / PING / QUIT / RESET are allowed in this context\n" +
+    '    at parseError (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:179:12)\n' +
+    '    at parseType (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js:302:14)',
+  exception: true,
+  date: 'Sat Apr 27 2024 03:15:23 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 74278,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 98623488,
+      heapTotal: 61067264,
+      heapUsed: 30116952,
+      external: 1671957,
+      arrayBuffers: 397471
+    }
+  },
+  os: { loadavg: [ 0.13, 0.5, 0.7 ], uptime: 32914.69 },
+  trace: [
+    {
+      column: 12,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseError',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/node_modules/redis-parser/lib/parser.js',
+      function: 'parseType',
+      line: 302,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T20:15:23.412Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'publish')
+      at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:14:21)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'publish')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:14:21)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'publish')\n" +
+    '    at Timeout._onTimeout (/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js:14:21)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  exception: true,
+  date: 'Sat Apr 27 2024 04:12:42 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 81762,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core',
+    execPath: '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+    version: 'v18.20.2',
+    argv: [
+      '/home/kunkeypr/.config/nvm/versions/node/v18.20.2/bin/node',
+      '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/server.js'
+    ],
+    memoryUsage: {
+      rss: 122130432,
+      heapTotal: 72339456,
+      heapUsed: 50140144,
+      external: 2241878,
+      arrayBuffers: 967392
+    }
+  },
+  os: { loadavg: [ 1.12, 1.12, 0.98 ], uptime: 36353.4 },
+  trace: [
+    {
+      column: 21,
+      file: '/home/kunkeypr/Documents/workspace/MicroService/Server-Core/src/app/loaders/redisConnection2.js',
+      function: 'Timeout._onTimeout',
+      line: 14,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 569,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'process.processTimers',
+      line: 512,
+      method: 'processTimers',
+      native: false
+    }
+  ],
+  timestamp: '2024-04-26T21:12:42.129Z'
+}

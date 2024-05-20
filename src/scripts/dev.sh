@@ -1,0 +1,1 @@
+nodemon src/app/server.js

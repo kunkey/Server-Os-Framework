@@ -1,0 +1,58 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src/app",
+        "module": "commonjs",
+        "paths": {
+            "@": [
+                "./*"
+            ],
+            "@Express": [
+                "./express.js"
+            ],
+            "@WebSocket": [
+                "./websocket.js"
+            ],
+            "@Env": [
+                "./configs/env.js"
+            ],
+            "@Configs/*": [
+                "./configs/*"
+            ],
+            "@Controllers/*": [
+                "./controllers/*"
+            ],
+            "@Databases/*": [
+                "./databases/*"
+            ],
+            "@Helpers/*": [
+                "./helpers/*"
+            ],
+            "@Utils/*": [
+                "./utils/*"
+            ],
+            "@Loaders/*": [
+                "./loaders/*"
+            ],
+            "@Middwares/*": [
+                "./middwares/*"
+            ],
+            "@Models/*": [
+                "./models/*"
+            ],
+            "@Libs/*": [
+                "./libs/*"
+            ],
+            "@Routers/*": [
+                "./routers/*"
+            ],
+            "@Services/*": [
+                "./services/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "dist"
+    ]
+}

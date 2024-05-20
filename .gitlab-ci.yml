@@ -1,0 +1,35 @@
+image: docker:19
+
+services:
+  - docker:dind
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - docker version
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  - apk add --update curl && rm -rf /var/cache/apk/*
+
+build:
+  stage: build
+  script:
+    - 'curl -X POST -H "Content-Type: application/json" -d "{\"chat_id\": \"-4105010942\", \"text\": \"├ ——— Gitlab CI/CD PipeLine ———\n├ ——— START BUILD IMAGE ———\n├ Build  -> Started: [ ${CI_PROJECT_NAME} ]\n├ Branch -> Publish: [ ${CI_COMMIT_BRANCH} ]\n├ Registry Image:\n└ $CI_REGISTRY_IMAGE\"}" https://api.telegram.org/bot6184549686:AAEHOlYwoaaDhfrXpT3uWKhDvbTu9xJf4-s/sendMessage'
+    - docker build --cache-from $CI_REGISTRY_IMAGE:latest --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+    - docker tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA $CI_REGISTRY_IMAGE:latest
+    - docker push $CI_REGISTRY_IMAGE:latest
+    - 'curl -X POST -H "Content-Type: application/json" -d "{\"chat_id\": \"-4105010942\", \"text\": \"├ ——— Gitlab CI/CD PipeLine ———\n├ ——— COMPLETE BUILD IMAGE ———\n├ Build  -> Complete: [ ${CI_PROJECT_NAME} ]\n├ Branch -> Publish: [ ${CI_COMMIT_BRANCH} ]\n├ Registry Image:\n└ $CI_REGISTRY_IMAGE\"}" https://api.telegram.org/bot6184549686:AAEHOlYwoaaDhfrXpT3uWKhDvbTu9xJf4-s/sendMessage'
+  only:
+    - develop
+
+deploy:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - curl -XPOST $WWW_WEBHOO
+    - 'curl -X POST -H "Content-Type: application/json" -d "{\"chat_id\": \"-4105010942\", \"text\": \"├ ——— Gitlab CI/CD PipeLine ———\n├ ——— DEPLOY PROJECT SUCCESS ———\n├ Deploy -> Success: [ ${CI_PROJECT_NAME} ]\n├ Branch -> Publish: [ ${CI_COMMIT_BRANCH} ]\n├ Registry Image:\n└ $CI_REGISTRY_IMAGE\"}" https://api.telegram.org/bot6184549686:AAEHOlYwoaaDhfrXpT3uWKhDvbTu9xJf4-s/sendMessage'
+  only:
+    - develop
